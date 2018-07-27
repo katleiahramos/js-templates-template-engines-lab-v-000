@@ -31,10 +31,12 @@
       <div id="post"></div>
     </script>
     <script id="post-template" type="text/x-lodash-template">
-      <div class="post-title"><h3><%= postTitle %><h3></div>
-      <div class="post-body"><%= postBody%></div>
+      <div class="post-title"></div>
+      <div class="post-body"></div>
       <div class="post-author">
         <article>
+        <h3><%= postTitle %><h3>
+        <p><%= postBody%></p>
           <footer>
             <%= postAuthor %>
           </footer>
@@ -42,7 +44,8 @@
       </div><br>
     </script>
     <script id="comments-template">
-      <div class="comment-body"
+      <div class="comment-body"><%= commentBody %></div>
+      <footer>
     </script>
   </body>
 </html>
