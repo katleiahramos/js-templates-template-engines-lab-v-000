@@ -10,5 +10,6 @@ function createPost(){
 
   // document.getElementById('posts').innerHTML += postHTML
 
+  
 
 }
