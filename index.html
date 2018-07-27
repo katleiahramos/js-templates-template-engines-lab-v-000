@@ -5,16 +5,17 @@
   </head>
   <body>
     <main>
+
       <form id="post-form" onsubmit="createPost();return false; ">
         Title: <input type="text" id="postTitle"><br>
         Body:  <input type="text" id="postBody"><br>
         Author: <input type="text" id="postAuthor"><br>
         <input type="submit">
       </form>
-    
+
       <div id="posts">
       </div>
-    
+
     </main>
     <script src="lodash.min.js"></script>
     <script src="index.js"></script>
