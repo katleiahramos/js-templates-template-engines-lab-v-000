@@ -33,7 +33,11 @@
     <script id="post-template" type="text/x-lodash-template">
       <div class="post-title"><h3><%= postTitle %><h3></div>
       <div class="post-body"><%= postBody%></div>
-      <div class="post-author"><%= postAuthor %></div><br>
+      <div class="post-author">
+        <article>
+        <%= postAuthor %>
+        </article>
+      </div><br>
     </script>
     <script id="comments-template"></script>
   </body>
